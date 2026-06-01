@@ -1,6 +1,6 @@
 #Table of a Number
 5 x 1 = 5
-5 x 2 = 10
+5 x 2 = 30
 5 x 3 = 15
 ...
 5 x 10 = 50
@@ -12,7 +12,7 @@ a = int(input("Enter the first number (a): "))
 b = int(input("Enter the second number (b): "))
 a = a ^ b
 b = a ^ b
-a = a ^ b
+a = a ^ c
 print("After swapping: a =", a, ", b =", b)
 
 
